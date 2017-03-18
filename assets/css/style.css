@@ -1,0 +1,46 @@
+@font-face {
+ 	font-family: Citrica-Regular; 
+ 	src: url('Citrica-Regular.ttf'); 
+ }
+ 
+ body {
+ 	font-family: Citrica-Regular;
+ }
+
+.jumbotron {
+	background-image: url("../images/traingraph.png");
+	background-position: 0% 25%;
+	background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+	font-size: 90px;
+}
+
+#new-train-table {
+	font-weight: bold;
+}
+
+
+.panel-heading {
+	background-color: #c72a31!important;
+}
+
+.panel-body {
+	font-size: 25px
+}
+
+#submit-btn {
+	background-color: #c72a31;
+	border-color: #c72a31;
+}
+
+.form-group {
+	font-size: 25px;
+}
+
+.remove-train {
+	background-color: #c72a31;
+	border-color: #c72a31;
+}
